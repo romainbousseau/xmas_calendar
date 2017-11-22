@@ -12,16 +12,22 @@ $(document).ready(function(){
     showNonCurrentDates: false,
     events: [
       {
-        title: "lol",
+        title: "1",
         id: 1,
         allDay: true,
         start: moment("2017-12-1")
       },
       {
-        title: ":)",
+        title: "2",
         id: 2,
         allDay: true,
         start: moment("2017-12-2")
+      },
+      {
+        title: "3",
+        id: 3,
+        allDay: true,
+        start: moment("2017-12-3")
       }
     ],
     eventClick: function(event, jsEvent, view){
@@ -29,4 +35,5 @@ $(document).ready(function(){
     }
   });
   $('.fc-head').html('')
+  $('.fc-day-number').html('')
 });
