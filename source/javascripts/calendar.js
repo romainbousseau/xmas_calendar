@@ -23,7 +23,10 @@ $(document).ready(function(){
         allDay: true,
         start: moment("2017-12-2")
       }
-    ]
+    ],
+    eventClick: function(event, jsEvent, view){
+      $('#dayModal').modal('toggle');
+    }
   });
   $('.fc-head').html('')
 });
