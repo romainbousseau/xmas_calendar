@@ -36,4 +36,13 @@ $(document).ready(function(){
   });
   $('.fc-head').html('')
   $('.fc-day-number').html('')
+
+
+  $('.day-container').click(function() {
+    console.log($(this).data("target"));
+    $($(this).data("target")).addClass("active");
+  })
+  $(".modal-background").click(function() {
+    $('.modal').removeClass('active');
+  })
 });
