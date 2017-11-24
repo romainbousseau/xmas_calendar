@@ -22,16 +22,10 @@ $(document).ready(function(){
         id: 2,
         allDay: true,
         start: moment("2017-12-2")
-      },
-      {
-        title: "3",
-        id: 3,
-        allDay: true,
-        start: moment("2017-12-3")
       }
     ],
     eventClick: function(event, jsEvent, view){
-      $('#dayModal').modal('toggle');
+      $('#dayModal-' + event.id).modal('toggle');
     }
   });
   $('.fc-head').html('')
