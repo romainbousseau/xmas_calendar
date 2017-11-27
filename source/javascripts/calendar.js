@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $('.day-container').click(function() {
-    // Change before lauch ;)
+    // Change '<' in '>' before lauch ;)
     if($('.calendar-container').data('day') < moment().format()){
       $($(this).data("target")).addClass("active");
     } else {
