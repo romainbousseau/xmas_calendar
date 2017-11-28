@@ -1,0 +1,116 @@
+- id: one
+  image: images/day-1.gif
+  text: Ca va être long...
+  bg_img: images/bg-images/one.png
+  pattern: images/pattern/one.png
+- id: two
+  image: images/day-2.png
+  bg_img: images/bg-images/two.png
+  pattern: images/pattern/two.png
+- id: three
+  image: images/day-3.gif
+  text: Winter is coming
+  bg_img: images/bg-images/three.png
+  pattern: images/pattern/three.png
+- id: four
+  image: images/day-1.gif
+  text: Ca va être long...
+  bg_img: images/bg-images/four.png
+  pattern: images/pattern/four.png
+- id: five
+  image: images/day-5.jpg
+  bg_img: images/bg-images/five.png
+  pattern: images/pattern/five.png
+- id: six
+  image: images/day-6.gif
+  text: Un employé de Poulpe en plein travail.
+  bg_img: images/bg-images/six.png
+  pattern: images/pattern/six.png
+- id: seven
+  image: images/day-7.gif
+  bg_img: images/bg-images/seven.png
+  pattern: images/pattern/seven.png
+- id: height
+  image: images/day-1.gif
+  text: Si vous vous demandez quoi offrir a votre conjoint(e).
+  bg_img: images/bg-images/height.png
+  pattern: images/pattern/height.png
+- id: nine
+  image: images/day-1.gif
+  text: Ca va être long...
+  bg_img: images/bg-images/nine.png
+  pattern: images/pattern/nine.png
+- id: ten
+  image: images/day-1.gif
+  text: Ca va être long...
+  bg_img: images/bg-images/ten.png
+  pattern: images/pattern/ten.png
+- id: eleven
+  image: images/day-1.gif
+  text: Ca va être long...
+  bg_img: images/bg-images/eleven.png
+  pattern: images/pattern/eleven.png
+- id: twelve
+  image: images/day-1.gif
+  text: Ca va être long...
+  bg_img: images/bg-images/twelve.png
+  pattern: images/pattern/twelve.png
+- id: thirteen
+  image: images/day-1.gif
+  text: Ca va être long...
+  bg_img: images/bg-images/thirteen.png
+  pattern: images/pattern/thirteen.png
+- id: fourteen
+  image: images/day-1.gif
+  text: Ca va être long...
+  bg_img: images/bg-images/fourteen.png
+  pattern: images/pattern/fourteen.png
+- id: fifteen
+  image: images/day-1.gif
+  text: Ca va être long...
+  bg_img: images/bg-images/fifteen.png
+  pattern: images/pattern/fifteen.png
+- id: sixteen
+  image: images/day-1.gif
+  text: Ca va être long...
+  bg_img: images/bg-images/sixteen.png
+  pattern: images/pattern/sixteen.png
+- id: seventeen
+  image: images/day-1.gif
+  text: Ca va être long...
+  bg_img: images/bg-images/seventeen.png
+  pattern: images/pattern/seventeen.png
+- id: heighteen
+  image: images/day-1.gif
+  text: Ca va être long...
+  bg_img: images/bg-images/heighteen.png
+  pattern: images/pattern/heighteen.png
+- id: nineteen
+  image: images/day-1.gif
+  text: Ca va être long...
+  bg_img: images/bg-images/nineteen.png
+  pattern: images/pattern/nineteen.png
+- id: twenty
+  image: images/day-1.gif
+  text: Ca va être long...
+  bg_img: images/bg-images/twenty.png
+  pattern: images/pattern/twenty.png
+- id: twentyone
+  image: images/day-21.gif
+  bg_img: images/bg-images/twentyone.png
+  pattern: images/pattern/twentyone.png
+- id: twentytwo
+  image: images/day-22.gif
+  text: Quand c'est le vendredi avant Noël
+  bg_img: images/bg-images/twentytwo.png
+  pattern: images/pattern/twentytwo.png
+- id: twentythree
+  image: images/day-23.gif
+  text: Quand il reste tout les cadeaux à acheter.
+  bg_img: images/bg-images/twentythree.png
+  pattern: images/pattern/twentythree.png
+- id: twentyfour
+  image: images/day-1.gif
+  text: Ca va être long...
+  bg_img: images/bg-images/twentyfour.png
+  pattern: images/pattern/twentyfour.png

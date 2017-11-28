@@ -7,7 +7,6 @@
   align-items: center;
   display: none;
   justify-content: center;
-  overflow: hidden;
   position: fixed;
   z-index: 20;
 }
@@ -22,31 +21,26 @@
 .modal-content {
   z-index: 40;
   margin: 0 auto;
-  max-height: calc(100vh - 40px);
-  width: 70%;
-  min-width: 300px;
   position: relative;
-}
-
-
-.modal {
-  .box {
-    padding: 65px 100px;
-    min-height: calc(100vh - 180px);
-    max-height: calc(100vh - 40px);
-  }
-  .modal-content {
-    overflow: visible;
-    max-height: inherit;
-  }
-
 }
 
 .box {
   background-color: white;
   border-radius: 5px;
   display: block;
-  padding: 65px 160px;
+  padding: 50px;
+  p {
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+  a {
+    color: #E83630;
+    font-weight: bolder;
+    text-decoration: underline;
+  }
+  img {
+    max-width: 400px;
+  }
 }
 
 
