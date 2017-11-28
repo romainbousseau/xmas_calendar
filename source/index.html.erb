@@ -1,16 +1,7 @@
- <!-- One -->
- <div id="one" class="gift modal">
-   <div class="modal-background"></div>
-   <div class="modal-content">
-     <div class="box">
-        <%= image_tag('day-1.gif') %>
-        <p>Ca va être long...</p>
-     </div>
-   </div>
- </div>
+
 
 <!-- Two -->
-<div id="two" class="gift modal">
+<!-- <div id="two" class="gift modal">
  <div class="modal-background"></div>
  <div class="modal-content">
    <div class="box">
@@ -34,105 +25,43 @@
    </div>
  </div>
 </div>
-
-<!-- Three -->
-<div id="three" class="gift modal">
-  <div class="modal-background"></div>
-  <div class="modal-content">
-    <div class="box">
-      <%= image_tag('day-3.gif') %>
-      <p>Winter is coming</p>
-    </div>
-  </div>
-</div>
-
+ -->
 <!-- Four -->
-<div id="four" class="gift modal">
+<!-- <div id="four" class="gift modal">
   <div class="modal-background"></div>
   <div class="modal-content">
     <div class="box">
-      <a href="http://pica-pic.com/#/octopus/">Mieux que COD of FIFA 18</a>
+      <a href="http://pica-pic.com/#/octopus/" target="blank">Mieux que COD of FIFA 18</a>
     </div>
   </div>
-</div>
+</div> -->
 
-<!-- Five -->
-<div id="five" class="gift modal">
-  <div class="modal-background"></div>
-  <div class="modal-content">
-    <div class="box">
-      <%= image_tag('day-5.jpg') %>
-    </div>
-  </div>
-</div>
 
-<!-- Six -->
-<div id="six" class="gift modal">
-  <div class="modal-background"></div>
-  <div class="modal-content">
-    <div class="box">
-      <%= image_tag('day-6.gif') %>
-      <p>Un employé de Poulpe en plein travail.</p>
+<% data.days.each do |day| %>
+  <div id="<%= day.id %>" class="gift modal">
+    <div class="modal-background"></div>
+    <div class="modal-content text-center">
+      <div class="box">
+        <%= image_tag day.image %>
+        <% if day.text %>
+          <p><%= day.text %></p>
+        <% end %>
+      </div>
     </div>
   </div>
-</div>
-
-<!-- Seven -->
-<div id="seven" class="gift modal">
-  <div class="modal-background"></div>
-  <div class="modal-content">
-    <div class="box">
-      <%= image_tag('day-7.gif') %>
-      <p>Si vous vous demandez quoi offrire a votre conjoint(e).</p>
-    </div>
-  </div>
-</div>
-
-<!-- Twenty One -->
-<div id="twentyone" class="gift modal">
-  <div class="modal-background"></div>
-  <div class="modal-content">
-    <div class="box">
-      <%= image_tag('day-21.gif') %>
-    </div>
-  </div>
-</div>
-
-<!-- Twenty three -->
-<div id="twentythree" class="gift modal">
-  <div class="modal-background"></div>
-  <div class="modal-content">
-    <div class="box">
-      <%= image_tag('day-23.gif') %>
-      <p>Quand il reste tout les cadeaux à acheter.</p>
-    </div>
-  </div>
-</div>
+<% end %>
 
 <!-- Calendar -->
-<div class="calendar-container" data-day="<%= DateTime.now %>">
-  <div class="day-container" data-target="#one">1</div>
-  <div class="day-container" data-target="#two">2</div>
-  <div class="day-container" data-target="#three">3</div>
-  <div class="day-container" data-target="#four">4</div>
-  <div class="day-container" data-target="#five">5</div>
-  <div class="day-container" data-target="#six">6</div>
-  <div class="day-container" data-target="#seven">7</div>
-  <div class="day-container" data-target="#eight">8</div>
-  <div class="day-container" data-target="#nine">9</div>
-  <div class="day-container" data-target="#ten">10</div>
-  <div class="day-container" data-target="#eleven">11</div>
-  <div class="day-container" data-target="#twelve">12</div>
-  <div class="day-container" data-target="#thirteen">13</div>
-  <div class="day-container" data-target="#fourteen">14</div>
-  <div class="day-container" data-target="#fiftheen">15</div>
-  <div class="day-container" data-target="#sixteen">16</div>
-  <div class="day-container" data-target="#seventeen">17</div>
-  <div class="day-container" data-target="#eighteen">18</div>
-  <div class="day-container" data-target="#nineteen">19</div>
-  <div class="day-container" data-target="#twenty">20</div>
-  <div class="day-container" data-target="#twentyone">21</div>
-  <div class="day-container" data-target="#twentytwo">22</div>
-  <div class="day-container" data-target="#twentythree">23</div>
-  <div class="day-container" data-target="#twentyfour">24</div>
-</div>
+  <h1>Poulpe Xmas's calendar</h1>
+  <div class="calendar-container" data-day="<%= DateTime.now %>"> 
+    <% data.days.each do |day| %>
+      <div class="day-container" data-target="#<%= day.id %>">
+        <%# if ?? %>
+          <%#= image_tag day.pattern %>
+        <%# else %>
+          <%= image_tag day.bg_img %>
+          
+        <%# end %>
+      </div>
+    <% end %>
+  </div>
