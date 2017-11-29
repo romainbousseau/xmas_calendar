@@ -1,6 +1,11 @@
 h1 {
   font-style: italic;
   margin-top: 0;
+  color: white;
+  text-align: center;
+  @media (max-width: $screen-xs) {
+    margin-top: 30px;
+  }
 }
 
 body {
@@ -9,6 +14,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-color: #9e0f0d;
 }
 
 .calendar-container {
@@ -16,6 +22,13 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   width: 780px;
+  @media (max-width: $screen-sm) {
+    width: 640px;
+  }
+  @media (max-width: $screen-xs) {
+    width: 300px;
+    margin-bottom: 30px;
+  }
 }
 
 .day-container {
@@ -29,8 +42,20 @@ body {
   img {
     width: 130px;
   }
+  @media (max-width: $screen-xs) {
+    width: 150px;
+    height: 150px;
+    img {
+      width: 150px;
+    }
+  }
 }
 
-#two {
-  line-height: 0.4;
+#nine {
+  .modal-content {
+    text-align: left;
+  }
+  @media (max-width: $screen-xs) {
+    font-size: 10px;
+  }
 }
