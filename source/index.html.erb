@@ -32,7 +32,7 @@
 <% end %>
 
 <!-- Calendar -->
-  <h1>Poulpe Xmas's calendar</h1>
+  <%= image_tag('xmas_poulpe.png', class: 'xmas-logo') %>
   <div class="calendar-container" data-day="<%= DateTime.now %>">
     <% data.days.each do |day| %>
       <div class="day-container" data-target="#<%= day.id %>">
