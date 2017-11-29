@@ -41,6 +41,17 @@
   img {
     max-width: 400px;
   }
+  @media (max-width: $screen-xs) {
+    padding: 20px;
+    img, p {
+      max-width: 300px;
+    }
+  }
+  @media (max-width: $iphone4) {
+    img, p {
+      max-width: 260px;
+    }
+  }
 }
 
 
