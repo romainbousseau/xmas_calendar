@@ -1,4 +1,5 @@
-
+<div id="snow">
+</div>
 
 <!-- Two -->
 <!-- <div id="two" class="gift modal">
@@ -53,14 +54,14 @@
 
 <!-- Calendar -->
   <h1>Poulpe Xmas's calendar</h1>
-  <div class="calendar-container" data-day="<%= DateTime.now %>"> 
+  <div class="calendar-container" data-day="<%= DateTime.now %>">
     <% data.days.each do |day| %>
       <div class="day-container" data-target="#<%= day.id %>">
         <%# if ?? %>
           <%#= image_tag day.pattern %>
         <%# else %>
           <%= image_tag day.bg_img %>
-          
+
         <%# end %>
       </div>
     <% end %>

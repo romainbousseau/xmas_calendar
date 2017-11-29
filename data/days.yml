@@ -56,8 +56,8 @@
   bg_img: images/bg-images/twelve.png
   pattern: images/pattern/twelve.png
 - id: thirteen
-  image: images/day-1.gif
-  text: Ca va être long...
+  image: images/day-13.gif
+  text: Quand on me demande si je sais ce que je fais pour le nouvel An
   bg_img: images/bg-images/thirteen.png
   pattern: images/pattern/thirteen.png
 - id: fourteen
