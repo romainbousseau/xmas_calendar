@@ -36,12 +36,11 @@
   <div class="calendar-container" data-day="<%= DateTime.now %>">
     <% data.days.each do |day| %>
       <div class="day-container" data-target="#<%= day.id %>">
-        <%# if ?? %>
-          <%#= image_tag day.pattern %>
-        <%# else %>
+        <% if day.date.to_date < Date.today %>
+          <%= image_tag day.pattern %>
+        <% else %>
           <%= image_tag day.bg_img %>
-
-        <%# end %>
+        <% end %>
       </div>
     <% end %>
   </div>

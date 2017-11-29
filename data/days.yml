@@ -3,38 +3,46 @@
   text: Ca va être long...
   bg_img: images/bg-images/one.png
   pattern: images/pattern/one.png
+  date: 2017-12-01
 - id: two
   image: images/day-2.png
   bg_img: images/bg-images/two.png
   pattern: images/pattern/two.png
+  date: 2017-12-02
 - id: three
   image: images/day-3.gif
   text: Winter is coming
   bg_img: images/bg-images/three.png
   pattern: images/pattern/three.png
+  date: 2017-12-03
 - id: four
   image: images/day-1.gif
   text: Ca va être long...
   bg_img: images/bg-images/four.png
   pattern: images/pattern/four.png
+  date: 2017-12-04
 - id: five
   image: images/day-5.jpg
   bg_img: images/bg-images/five.png
   pattern: images/pattern/five.png
+  date: 2017-12-05
 - id: six
   image: images/day-6.gif
   text: Un employé de Poulpe en plein travail.
   bg_img: images/bg-images/six.png
   pattern: images/pattern/six.png
+  date: 2017-12-06
 - id: seven
   image: images/day-7.gif
   bg_img: images/bg-images/seven.png
   pattern: images/pattern/seven.png
+  date: 2017-12-07
 - id: height
   image: images/day-8.gif
   text: Si vous vous demandez quoi offrir a votre conjoint(e).
   bg_img: images/bg-images/height.png
   pattern: images/pattern/height.png
+  date: 2017-12-08
 - id: nine
   text: |
     ________________$$$$$$$ <br />
@@ -56,77 +64,93 @@
     ____$$$____$$$$$$__$$$____$$$$$$$$ <br />
   bg_img: images/bg-images/nine.png
   pattern: images/pattern/nine.png
+  date: 2017-12-09
 - id: ten
   image: images/day-10.gif
   text: Quand tu commences un régime parce que c'est bientôt les fêtes.
   bg_img: images/bg-images/ten.png
   pattern: images/pattern/ten.png
+  date: 2017-12-10
 - id: eleven
   image: images/day-1.gif
   text: Ca va être long...
   bg_img: images/bg-images/eleven.png
   pattern: images/pattern/eleven.png
+  date: 2017-12-11
 - id: twelve
   image: images/day-1.gif
   text: Ca va être long...
   bg_img: images/bg-images/twelve.png
   pattern: images/pattern/twelve.png
+  date: 2017-12-12
 - id: thirteen
   image: images/day-13.gif
   text: Quand on me demande si je sais ce que je fais pour le nouvel An
   bg_img: images/bg-images/thirteen.png
   pattern: images/pattern/thirteen.png
+  date: 2017-12-13
 - id: fourteen
   image: images/day-1.gif
   text: Ca va être long...
   bg_img: images/bg-images/fourteen.png
   pattern: images/pattern/fourteen.png
+  date: 2017-12-14
 - id: fifteen
   image: images/day-1.gif
   text: Ca va être long...
   bg_img: images/bg-images/fifteen.png
   pattern: images/pattern/fifteen.png
+  date: 2017-12-15
 - id: sixteen
   image: images/day-1.gif
   text: Ca va être long...
   bg_img: images/bg-images/sixteen.png
   pattern: images/pattern/sixteen.png
+  date: 2017-12-16
 - id: seventeen
   image: images/day-1.gif
   text: Ca va être long...
   bg_img: images/bg-images/seventeen.png
   pattern: images/pattern/seventeen.png
+  date: 2017-12-17
 - id: heighteen
   image: images/day-1.gif
   text: Ca va être long...
   bg_img: images/bg-images/heighteen.png
   pattern: images/pattern/heighteen.png
+  date: 2017-12-18
 - id: nineteen
   image: images/day-1.gif
   text: Ca va être long...
   bg_img: images/bg-images/nineteen.png
   pattern: images/pattern/nineteen.png
+  date: 2017-12-19
 - id: twenty
   image: images/day-1.gif
   text: Ca va être long...
   bg_img: images/bg-images/twenty.png
   pattern: images/pattern/twenty.png
+  date: 2017-12-20
 - id: twentyone
   image: images/day-21.gif
   bg_img: images/bg-images/twentyone.png
   pattern: images/pattern/twentyone.png
+  date: 2017-12-21
 - id: twentytwo
   image: images/day-22.gif
   text: Quand c'est le vendredi avant Noël
   bg_img: images/bg-images/twentytwo.png
   pattern: images/pattern/twentytwo.png
+  date: 2017-12-22
 - id: twentythree
   image: images/day-23.gif
   text: Quand il reste tout les cadeaux à acheter.
   bg_img: images/bg-images/twentythree.png
   pattern: images/pattern/twentythree.png
+  date: 2017-12-23
 - id: twentyfour
   image: images/day-1.gif
   text: Ca va être long...
   bg_img: images/bg-images/twentyfour.png
   pattern: images/pattern/twentyfour.png
+  date: 2017-12-24

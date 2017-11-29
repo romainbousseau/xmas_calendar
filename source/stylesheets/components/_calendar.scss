@@ -54,6 +54,9 @@ body {
 #nine {
   .modal-content {
     text-align: left;
+    .box p {
+      max-width: inherit;
+    }
   }
   @media (max-width: $screen-xs) {
     font-size: 10px;
