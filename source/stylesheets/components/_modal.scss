@@ -38,7 +38,7 @@
     font-weight: bolder;
     text-decoration: underline;
   }
-  img {
+  img, p {
     max-width: 400px;
   }
   @media (max-width: $screen-xs) {

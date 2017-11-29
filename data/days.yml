@@ -31,12 +31,11 @@
   bg_img: images/bg-images/seven.png
   pattern: images/pattern/seven.png
 - id: height
-  image: images/day-1.gif
+  image: images/day-8.gif
   text: Si vous vous demandez quoi offrir a votre conjoint(e).
   bg_img: images/bg-images/height.png
   pattern: images/pattern/height.png
 - id: nine
-  # image: images/day-1.gif
   text: |
     ________________$$$$$$$ <br />
     ____________$$$$$$$$$$$$$$ <br />
@@ -58,8 +57,8 @@
   bg_img: images/bg-images/nine.png
   pattern: images/pattern/nine.png
 - id: ten
-  image: images/day-1.gif
-  text: Ca va être long...
+  image: images/day-10.gif
+  text: Quand tu commences un régime parce que c'est bientôt les fêtes.
   bg_img: images/bg-images/ten.png
   pattern: images/pattern/ten.png
 - id: eleven
