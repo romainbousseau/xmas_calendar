@@ -14,6 +14,9 @@ body { background-color:#9e0f0d; }
   -moz-animation: snow 20s linear infinite;
   -ms-animation: snow 20s linear infinite;
   animation: snow 20s linear infinite;
+  @media (max-width: $screen-xs) {
+    height: 2052px;
+  }
 }
 @keyframes snow {
   0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
