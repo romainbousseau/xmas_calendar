@@ -23,8 +23,8 @@
   pattern: images/pattern/six.png
   date: 2017-12-06
 - id: five
-  text: Life.js
-  image: images/day-5.jpg
+  text: lol
+  image: images/day-5.gif
   bg_img: images/bg-images/five.png
   pattern: images/pattern/five.png
   date: 2017-12-05
@@ -42,7 +42,7 @@
   date: 2017-12-04
 - id: one
   image: images/day-1.gif
-  text: Ca va être long...
+  text: Ca va être long... <br><br> Mais chaque jour on vous offre une surprise pour patienter!
   bg_img: images/bg-images/one.png
   pattern: images/pattern/one.png
   date: 2017-12-01
@@ -71,8 +71,8 @@
   pattern: images/pattern/ten.png
   date: 2017-12-10
 - id: twelve
-  image: images/day-1.gif
-  text: Ca va être long...
+  image: images/day-12.png
+  text: Un calendrier de l'avant sans chocolat? Non.
   bg_img: images/bg-images/twelve.png
   pattern: images/pattern/twelve.png
   date: 2017-12-12
