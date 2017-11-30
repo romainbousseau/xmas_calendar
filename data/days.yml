@@ -22,15 +22,15 @@
   bg_img: images/bg-images/six.png
   pattern: images/pattern/six.png
   date: 2017-12-06
-- id: twentyfour
-  image: images/day-1.gif
-  text: Ca y'est
-  bg_img: images/bg-images/twentyfour.png
-  pattern: images/pattern/twentyfour.png
-  audio: images/sinatra.mp3
-  date: 2017-12-24
+- id: five
+  text: Life.js
+  image: images/day-5.jpg
+  bg_img: images/bg-images/five.png
+  pattern: images/pattern/five.png
+  date: 2017-12-05
 - id: two
   image: images/day-2.png
+  text: Bande de veinards! On vous offre notre recette secrète!
   bg_img: images/bg-images/two.png
   pattern: images/pattern/two.png
   date: 2017-12-02
@@ -46,12 +46,12 @@
   bg_img: images/bg-images/one.png
   pattern: images/pattern/one.png
   date: 2017-12-01
-- id: twelve
-  image: images/day-1.gif
-  text: Ca va être long...
-  bg_img: images/bg-images/twelve.png
-  pattern: images/pattern/twelve.png
-  date: 2017-12-12
+- id: thirteen
+  image: images/day-13.gif
+  text: Quand on me demande si je sais ce que je fais pour le nouvel An.
+  bg_img: images/bg-images/thirteen.png
+  pattern: images/pattern/thirteen.png
+  date: 2017-12-13
 - id: fifteen
   image: images/day-1.gif
   text: Ca va être long...
@@ -70,12 +70,12 @@
   bg_img: images/bg-images/ten.png
   pattern: images/pattern/ten.png
   date: 2017-12-10
-- id: thirteen
-  image: images/day-13.gif
-  text: Quand on me demande si je sais ce que je fais pour le nouvel An.
-  bg_img: images/bg-images/thirteen.png
-  pattern: images/pattern/thirteen.png
-  date: 2017-12-13
+- id: twelve
+  image: images/day-1.gif
+  text: Ca va être long...
+  bg_img: images/bg-images/twelve.png
+  pattern: images/pattern/twelve.png
+  date: 2017-12-12
 - id: nine
   text: |
     ________________$$$$$$$ <br />
@@ -139,12 +139,13 @@
   bg_img: images/bg-images/three.png
   pattern: images/pattern/three.png
   date: 2017-12-03
-- id: five
-  text: Life.js
-  image: images/day-5.jpg
-  bg_img: images/bg-images/five.png
-  pattern: images/pattern/five.png
-  date: 2017-12-05
+- id: twentyfour
+  image: images/day-1.gif
+  text: Ca y'est
+  bg_img: images/bg-images/twentyfour.png
+  pattern: images/pattern/twentyfour.png
+  audio: images/sinatra.mp3
+  date: 2017-12-24
 - id: twentythree
   image: images/day-23.gif
   text: Quand il reste tous les cadeaux à acheter.
