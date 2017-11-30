@@ -12,6 +12,7 @@
   date: 2017-12-16
 - id: seven
   image: images/day-7.gif
+  text: <3
   bg_img: images/bg-images/seven.png
   pattern: images/pattern/seven.png
   date: 2017-12-07
@@ -23,7 +24,7 @@
   date: 2017-12-06
 - id: twentyfour
   image: images/day-1.gif
-  text: Ca va être long...
+  text: Ca y'est
   bg_img: images/bg-images/twentyfour.png
   pattern: images/pattern/twentyfour.png
   date: 2017-12-24
@@ -70,7 +71,7 @@
   date: 2017-12-10
 - id: thirteen
   image: images/day-13.gif
-  text: Quand on me demande si je sais ce que je fais pour le nouvel An
+  text: Quand on me demande si je sais ce que je fais pour le nouvel An.
   bg_img: images/bg-images/thirteen.png
   pattern: images/pattern/thirteen.png
   date: 2017-12-13
@@ -145,7 +146,7 @@
   date: 2017-12-05
 - id: twentythree
   image: images/day-23.gif
-  text: Quand il reste tout les cadeaux à acheter.
+  text: Quand il reste tous les cadeaux à acheter.
   bg_img: images/bg-images/twentythree.png
   pattern: images/pattern/twentythree.png
   date: 2017-12-23
