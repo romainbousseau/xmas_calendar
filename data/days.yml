@@ -22,7 +22,7 @@
 - id: six
   number: 6
   image: images/day-6.gif
-  text: Un employé de Poulpe en plein travail.
+  text: Un employé de Poulpe en plein travail. <br><br> Vous n'avez pas perdu assez de temps aujourd'hui ? <br><br> <a target="blank" href="http://cat-bounce.com/">Cliquer içi</a>
   bg_img: images/bg-images/six.png
   pattern: images/pattern/six.png
   date: 2017-12-06
@@ -43,7 +43,7 @@
 - id: four
   number: 4
   image: images/day-4.gif
-  text: Youpi, c'est bientôt l'heure de sortir ton plus beau pull de Noël. <br> <br> Si tu manques d'inspiration<br><br> <a target="blank" href="https://www.francebleu.fr/sports/football/l-om-sort-un-pull-bleu-et-blanc-pour-noel-1510331338">L'OM sort un pull bleu et blanc pour Noël</a>
+  text: Youpi, c'est bientôt l'heure de sortir ton plus beau pull de Noël. <br> <br> Si tu manques d'inspiration<br><br> <a target="blank" href="https://www.francebleu.fr/sports/football/l-om-sort-un-pull-bleu-et-blanc-pour-noel-1510331338">L'OM sort un pull bleu et blanc pour Noël</a> <br><br> Soyez pas jaloux, la version PSG existe aussi.
   bg_img: images/bg-images/four.png
   pattern: images/pattern/four.png
   date: 2017-12-04
@@ -156,7 +156,7 @@
 - id: three
   number: 3
   image: images/day-3.gif
-  text: Winter is coming! <br><br>Fan de ce jeu de trône?<br><br> <a target="blank" href="http://beta.wind-and-words.com/">Allez jeter un oeil par là</a> <br>C'est joli et peu utile 🙂
+  text: Winter is coming! <br><br>Fan de ce jeu de trône?<br><br> <a target="blank" href="http://beta.wind-and-words.com/">Allez jeter un oeil par là</a> <br>C'est joli et très peu utile 🙂
   bg_img: images/bg-images/three.png
   pattern: images/pattern/three.png
   date: 2017-12-03
