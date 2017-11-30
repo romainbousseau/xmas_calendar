@@ -27,6 +27,7 @@
   text: Ca y'est
   bg_img: images/bg-images/twentyfour.png
   pattern: images/pattern/twentyfour.png
+  audio: images/sinatra.mp3
   date: 2017-12-24
 - id: two
   image: images/day-2.png
