@@ -22,6 +22,7 @@
   pattern: images/pattern/four.png
   date: 2017-12-04
 - id: five
+  text: Life.js
   image: images/day-5.jpg
   bg_img: images/bg-images/five.png
   pattern: images/pattern/five.png
@@ -120,8 +121,8 @@
   pattern: images/pattern/heighteen.png
   date: 2017-12-18
 - id: nineteen
-  image: images/day-1.gif
-  text: Ca va être long...
+  image: images/day-19.gif
+  text: Chat approche...
   bg_img: images/bg-images/nineteen.png
   pattern: images/pattern/nineteen.png
   date: 2017-12-19

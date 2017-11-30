@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $('.day-container').click(function() {
     // Change '<' in '>' before lauch ;)
-    if($('.calendar-container').data('day') > moment().format()){
+    if($('.calendar-container').data('day') < moment().format()){
       $($(this).data("target")).addClass("active");
     } else {
       $('#stalker').addClass('active');
