@@ -5,6 +5,7 @@
 <div id="stalker" class="gift modal">
   <div class="modal-background"></div>
   <div class="modal-content text-center">
+    <button class="modal-close"></button>
     <div class="box">
       <img id="random-cat" src="http://thecatapi.com/api/images/get?format=src&type=gif">
       <p>Petit(e) malin(e)! C'est tout pour aujourd'hui mais reviens demain.</p>
@@ -17,6 +18,7 @@
   <div id="<%= day.id %>" class="gift modal">
     <div class="modal-background"></div>
     <div class="modal-content text-center">
+      <button class="modal-close"></button>
       <div class="box">
         <% if day.image %>
           <%= image_tag day.image %>

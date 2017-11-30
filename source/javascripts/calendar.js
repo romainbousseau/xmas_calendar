@@ -18,6 +18,14 @@ $(document).ready(function(){
     })
     $("#random-cat").attr("src","http://thecatapi.com/api/images/get?format=src&type=gif");
   })
+  $(".modal-close").click(function() {
+    $('#sinatra')[0].pause();
+    $('.modal').removeClass('active');
+    $.ajax({
+      url: "http://thecatapi.com/api/images/get?format=src&type=gif"
+    })
+    $("#random-cat").attr("src","http://thecatapi.com/api/images/get?format=src&type=gif");
+  })
 });
 
 

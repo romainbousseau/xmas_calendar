@@ -42,14 +42,14 @@
     max-width: 400px;
   }
   @media (max-width: $screen-xs) {
-    padding: 20px;
+    padding: 40px;
     img, p {
-      max-width: 300px;
+      max-width: 250px;
     }
   }
   @media (max-width: $iphone4) {
     img, p {
-      max-width: 260px;
+      max-width: 200px;
     }
   }
 }
@@ -60,4 +60,53 @@
 
 #random-cat {
   width: 300px;
+  @media (max-width: $screen-xs) {
+    width: 250px;
+  }
+}
+
+
+.modal-close {
+  height: 32px;
+  max-height: 32px;
+  max-width: 32px;
+  min-height: 32px;
+  min-width: 32px;
+  width: 32px;
+  -webkit-touch-callout: none;
+  user-select: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-color: rgba(10, 10, 10, 0.2);
+  border: none;
+  border-radius: 290486px;
+  cursor: pointer;
+  display: inline-block;
+  flex-grow: 0;
+  flex-shrink: 0;
+  font-size: 1rem;
+  outline: none;
+  position: relative;
+  vertical-align: top;
+  background: none;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  &:before, &:after {
+    color: #E83630;
+    content:"\f00d";
+    font-family:"FontAwesome";
+    display: block;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    transform-origin: center center;
+  }
+  &:hover, &:focus {
+    background-color: #E83630;
+    &:before, &:after {
+      color: white;
+    }
+  }
 }
