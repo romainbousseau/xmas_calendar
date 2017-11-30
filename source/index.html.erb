@@ -27,6 +27,9 @@
         <% if day.text %>
           <p><%= day.text %></p>
         <% end %>
+        <% if day.audio %>
+          <%= tag :audio, src: day.audio, id: "sinatra" %>
+        <% end %>
       </div>
     </div>
   </div>
@@ -36,7 +39,7 @@
   <%= image_tag('xmas_poulpe.png', class: 'xmas-logo') %>
   <div class="calendar-container" data-day="<%= Date.today %>">
     <% data.days.each do |day| %>
-      <div class="day-container" data-target="#<%= day.id %>">
+      <div class="day-container" data-target="#<%= day.id %>" data-date="<%= day.date.to_date %>">
         <% if day.date.to_date < Date.today %>
           <%= image_tag day.pattern %>
         <% else %>
