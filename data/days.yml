@@ -23,7 +23,7 @@
   pattern: images/pattern/six.png
   date: 2017-12-06
 - id: five
-  text: lol
+  text: Il est temps d'aller chercher son sapin🎄🎄🎄 <br><br> <a target="blank" href="http://www.huffingtonpost.fr/2017/11/28/cederez-vous-a-la-mode-du-sapin-de-noel-a-lenvers_a_23291026/">Pour les originaux</a>
   image: images/day-5.gif
   bg_img: images/bg-images/five.png
   pattern: images/pattern/five.png
@@ -135,13 +135,13 @@
   date: 2017-12-19
 - id: three
   image: images/day-3.gif
-  text: Winter is coming
+  text: Winter is coming! <br><br>Fan de ce jeu de trône?<br><br> <a target="blank" href="http://beta.wind-and-words.com/">Allez jeter un oeil par là</a> <br>C'est joli et peu utile 🙂
   bg_img: images/bg-images/three.png
   pattern: images/pattern/three.png
   date: 2017-12-03
 - id: twentyfour
-  image: images/day-1.gif
-  text: Ca y'est
+  image: images/day-24.gif
+  text: 🎁 JOYEUX NOËL 🎁
   bg_img: images/bg-images/twentyfour.png
   pattern: images/pattern/twentyfour.png
   audio: images/sinatra.mp3
