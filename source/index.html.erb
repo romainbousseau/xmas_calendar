@@ -1,17 +1,18 @@
 <div id="snow">
 </div>
 
-<!-- Four -->
-<!-- <div id="four" class="gift modal">
+<!-- Stalker modal -->
+<div id="stalker" class="gift modal">
   <div class="modal-background"></div>
-  <div class="modal-content">
+  <div class="modal-content text-center">
     <div class="box">
-      <a href="http://pica-pic.com/#/octopus/" target="blank">Mieux que COD of FIFA 18</a>
+      <img id="random-cat" src="http://thecatapi.com/api/images/get?format=src&type=gif">
+      <p>Petit(e) malin(e)! C'est tout pour aujourd'hui mais reviens demain.</p>
     </div>
   </div>
-</div> -->
+</div>
 
-
+<!-- Modals -->
 <% data.days.each do |day| %>
   <div id="<%= day.id %>" class="gift modal">
     <div class="modal-background"></div>
@@ -33,7 +34,7 @@
 
 <!-- Calendar -->
   <%= image_tag('xmas_poulpe.png', class: 'xmas-logo') %>
-  <div class="calendar-container" data-day="<%= DateTime.now %>">
+  <div class="calendar-container" data-day="<%= Date.today %>">
     <% data.days.each do |day| %>
       <div class="day-container" data-target="#<%= day.id %>">
         <% if day.date.to_date < Date.today %>
