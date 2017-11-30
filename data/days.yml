@@ -1,82 +1,96 @@
 - id: seventeen
+  number: 17
   image: images/day-1.gif
   text: Ca va être long...
   bg_img: images/bg-images/seventeen.png
   pattern: images/pattern/seventeen.png
   date: 2017-12-17
 - id: sixteen
+  number: 16
   image: images/day-1.gif
   text: Ca va être long...
   bg_img: images/bg-images/sixteen.png
   pattern: images/pattern/sixteen.png
   date: 2017-12-16
 - id: seven
+  number: 7
   image: images/day-7.gif
   text: <3
   bg_img: images/bg-images/seven.png
   pattern: images/pattern/seven.png
   date: 2017-12-07
 - id: six
+  number: 6
   image: images/day-6.gif
   text: Un employé de Poulpe en plein travail.
   bg_img: images/bg-images/six.png
   pattern: images/pattern/six.png
   date: 2017-12-06
 - id: five
+  number: 5
   text: Il est temps d'aller chercher son sapin🎄🎄🎄 <br><br> <a target="blank" href="http://www.huffingtonpost.fr/2017/11/28/cederez-vous-a-la-mode-du-sapin-de-noel-a-lenvers_a_23291026/">Pour les originaux</a>
   image: images/day-5.gif
   bg_img: images/bg-images/five.png
   pattern: images/pattern/five.png
   date: 2017-12-05
 - id: two
+  number: 2
   image: images/day-2.png
   text: Bande de veinards! On vous offre notre recette secrète!
   bg_img: images/bg-images/two.png
   pattern: images/pattern/two.png
   date: 2017-12-02
 - id: four
+  number: 4
   image: images/day-4.gif
   text: Youpi, c'est bientôt l'heure de sortir ton plus beau pull de Noël. <br> <br> Si tu manques d'inspiration<br><br> <a target="blank" href="https://www.francebleu.fr/sports/football/l-om-sort-un-pull-bleu-et-blanc-pour-noel-1510331338">L'OM sort un pull bleu et blanc pour Noël</a>
   bg_img: images/bg-images/four.png
   pattern: images/pattern/four.png
   date: 2017-12-04
 - id: one
+  number: 1
   image: images/day-1.gif
   text: Ca va être long... <br><br> Mais chaque jour on vous offre une surprise pour patienter!
   bg_img: images/bg-images/one.png
   pattern: images/pattern/one.png
   date: 2017-12-01
 - id: thirteen
+  number: 13
   image: images/day-13.gif
   text: Quand on me demande si je sais ce que je fais pour le nouvel An.
   bg_img: images/bg-images/thirteen.png
   pattern: images/pattern/thirteen.png
   date: 2017-12-13
 - id: fifteen
+  number: 15
   image: images/day-1.gif
   text: Ca va être long...
   bg_img: images/bg-images/fifteen.png
   pattern: images/pattern/fifteen.png
   date: 2017-12-15
 - id: twenty
+  number: 20
   image: images/day-1.gif
   text: Ca va être long...
   bg_img: images/bg-images/twenty.png
   pattern: images/pattern/twenty.png
   date: 2017-12-20
 - id: ten
+  number: 10
   image: images/day-10.gif
   text: Quand tu commences un régime parce que c'est bientôt les fêtes.
   bg_img: images/bg-images/ten.png
   pattern: images/pattern/ten.png
   date: 2017-12-10
 - id: twelve
+  number: 12
   image: images/day-12.png
   text: Un calendrier de l'avant sans chocolat? Non.
   bg_img: images/bg-images/twelve.png
   pattern: images/pattern/twelve.png
   date: 2017-12-12
 - id: nine
+  number: 9
   text: |
     ________________$$$$$$$ <br />
     ____________$$$$$$$$$$$$$$ <br />
@@ -99,47 +113,55 @@
   pattern: images/pattern/nine.png
   date: 2017-12-09
 - id: twentyone
+  number: 21
   image: images/day-21.gif
   bg_img: images/bg-images/twentyone.png
   pattern: images/pattern/twentyone.png
   date: 2017-12-21
 - id: fourteen
+  number: 14
   image: images/day-1.gif
   text: Ca va être long...
   bg_img: images/bg-images/fourteen.png
   pattern: images/pattern/fourteen.png
   date: 2017-12-14
 - id: height
+  number: 8
   image: images/day-8.gif
   text: Si vous vous demandez quoi offrir a votre conjoint(e).
   bg_img: images/bg-images/height.png
-  pattern: images/pattern/height.png
+  pattern: images/pattern/eight.png
   date: 2017-12-08
 - id: heighteen
+  number: 18
   image: images/day-1.gif
   text: Ca va être long...
   bg_img: images/bg-images/heighteen.png
-  pattern: images/pattern/heighteen.png
+  pattern: images/pattern/eighteen.png
   date: 2017-12-18
 - id: twentytwo
+  number: 22
   image: images/day-22.gif
   text: Quand c'est le vendredi avant Noël
   bg_img: images/bg-images/twentytwo.png
   pattern: images/pattern/twentytwo.png
   date: 2017-12-22
 - id: nineteen
+  number: 19
   image: images/day-19.gif
   text: Chat approche...
   bg_img: images/bg-images/nineteen.png
   pattern: images/pattern/nineteen.png
   date: 2017-12-19
 - id: three
+  number: 3
   image: images/day-3.gif
   text: Winter is coming! <br><br>Fan de ce jeu de trône?<br><br> <a target="blank" href="http://beta.wind-and-words.com/">Allez jeter un oeil par là</a> <br>C'est joli et peu utile 🙂
   bg_img: images/bg-images/three.png
   pattern: images/pattern/three.png
   date: 2017-12-03
 - id: twentyfour
+  number: 24
   image: images/day-24.gif
   text: 🎁 JOYEUX NOËL 🎁
   bg_img: images/bg-images/twentyfour.png
@@ -147,12 +169,14 @@
   audio: images/sinatra.mp3
   date: 2017-12-24
 - id: twentythree
+  number: 23
   image: images/day-23.gif
   text: Quand il reste tous les cadeaux à acheter.
   bg_img: images/bg-images/twentythree.png
   pattern: images/pattern/twentythree.png
   date: 2017-12-23
 - id: eleven
+  number: 11
   image: images/day-1.gif
   text: Ca va être long...
   bg_img: images/bg-images/eleven.png

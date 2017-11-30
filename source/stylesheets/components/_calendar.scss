@@ -39,6 +39,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
   img {
     width: 130px;
   }
@@ -49,6 +50,15 @@ body {
       width: 150px;
     }
   }
+}
+
+.number {
+  position: absolute;
+  color: white;
+  font-family: $headers-font;
+  font-style: italic;
+  font-size: 35px;
+  text-shadow: 1px 1px 2px black;
 }
 
 #nine {

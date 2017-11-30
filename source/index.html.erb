@@ -41,6 +41,7 @@
     <% data.days.each do |day| %>
       <div class="day-container" data-target="#<%= day.id %>" data-date="<%= day.date.to_date %>">
         <% if day.date.to_date < Date.today %>
+          <div class="number"><%= day.number %></div>
           <%= image_tag day.pattern %>
         <% else %>
           <%= image_tag day.bg_img %>
