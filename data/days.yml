@@ -36,7 +36,7 @@
 - id: two
   number: 2
   image: images/day-2.png
-  text: Bande de veinards! On vous offre notre recette secrète!
+  text: Bande de veinards ! On vous offre notre recette secrète !
   bg_img: images/bg-images/two.png
   pattern: images/pattern/two.png
   date: 2017-12-02
@@ -50,7 +50,7 @@
 - id: one
   number: 1
   image: images/day-1.gif
-  text: Ca va être long... <br><br> Mais chaque jour on vous offre une surprise pour patienter!
+  text: Ca va être long... <br><br> Mais chaque jour on vous offre une surprise pour patienter !
   bg_img: images/bg-images/one.png
   pattern: images/pattern/one.png
   date: 2017-12-01
@@ -85,7 +85,7 @@
 - id: twelve
   number: 12
   image: images/day-12.png
-  text: Un calendrier de l'avant sans chocolat? Non.
+  text: Un calendrier de l'avant sans chocolat ? Non.
   bg_img: images/bg-images/twelve.png
   pattern: images/pattern/twelve.png
   date: 2017-12-12
@@ -156,7 +156,7 @@
 - id: three
   number: 3
   image: images/day-3.gif
-  text: Winter is coming! <br><br>Fan de ce jeu de trône?<br><br> <a target="blank" href="http://beta.wind-and-words.com/">Allez jeter un oeil par là</a> <br>C'est joli et très peu utile 🙂
+  text: Winter is coming ! <br><br>Fan de ce jeu de trône ?<br><br> <a target="blank" href="http://beta.wind-and-words.com/">Allez jeter un oeil par là</a> <br>C'est joli et très peu utile 🙂
   bg_img: images/bg-images/three.png
   pattern: images/pattern/three.png
   date: 2017-12-03
@@ -177,8 +177,8 @@
   date: 2017-12-23
 - id: eleven
   number: 11
-  image: images/day-1.gif
-  text: Ca va être long...
+  video: <iframe src="https://player.vimeo.com/video/237087854" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  text: Une bonne recette de poulpe à tester... et à consommer sans modération !
   bg_img: images/bg-images/eleven.png
   pattern: images/pattern/eleven.png
   date: 2017-12-11
