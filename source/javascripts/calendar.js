@@ -1,7 +1,6 @@
 $(document).ready(function(){
   $('.day-container').click(function() {
-    // Change '<' in '>' before lauch ;)
-    if($(this).data('date') <= moment().format()){
+    if($(this).data('date') > moment().format()){
       $($(this).data("target")).addClass("active");
       if($(this).data('date') == "2017-12-24") {
         $('#sinatra')[0].play();

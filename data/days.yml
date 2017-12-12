@@ -63,15 +63,15 @@
   date: 2017-12-13
 - id: fifteen
   number: 15
-  image: images/day-1.gif
-  text: Ca va être long...
+  image: images/day-15.gif
+  text: Quand t'espère qu'il va neiger. Mais qu'il n'y a que de la pluie et des flocons qui tiennent pas 😥😭
   bg_img: images/bg-images/fifteen.png
   pattern: images/pattern/fifteen.png
   date: 2017-12-15
 - id: twenty
   number: 20
-  image: images/day-1.gif
-  text: Ca va être long...
+  image: images/day-20.gif
+  text: Preparez vous au pire...
   bg_img: images/bg-images/twenty.png
   pattern: images/pattern/twenty.png
   date: 2017-12-20
@@ -120,8 +120,8 @@
   date: 2017-12-21
 - id: fourteen
   number: 14
-  image: images/day-1.gif
-  text: Ca va être long...
+  image: images/day-14.gif
+  text: Quand on fix un bug chez Poulpe.
   bg_img: images/bg-images/fourteen.png
   pattern: images/pattern/fourteen.png
   date: 2017-12-14
