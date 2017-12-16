@@ -1,7 +1,7 @@
 - id: seventeen
   number: 17
-  image: images/day-1.gif
-  text: Ca va être long...
+  image: images/day-17.gif
+  text: Quand on commence les préparatifs pour la soirée de Noël
   bg_img: images/bg-images/seventeen.png
   pattern: images/pattern/seventeen.png
   date: 2017-12-17
@@ -115,6 +115,7 @@
 - id: twentyone
   number: 21
   image: images/day-21.gif
+  text: Quand on prépare les cocktails pour la soirée de ce soir !
   bg_img: images/bg-images/twentyone.png
   pattern: images/pattern/twentyone.png
   date: 2017-12-21
@@ -134,8 +135,8 @@
   date: 2017-12-08
 - id: heighteen
   number: 18
-  image: images/day-1.gif
-  text: Ca va être long...
+  image: images/day-18.gif
+  text: "#monday"
   bg_img: images/bg-images/heighteen.png
   pattern: images/pattern/eighteen.png
   date: 2017-12-18
